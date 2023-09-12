@@ -3,9 +3,10 @@ import MenuButton from "./MenuButton";
 import CategoryItem from "./CategoryItem";
 import CartContainer from "./CartContainer";
 
+
 const NavBar = () => {
     return(
-        <nav className="navbar fixed-bottom  bg-dark body" data-bs-theme="dark">
+    <nav className="navbar fixed-bottom" style={{ backgroundColor: 'rgba(233, 244, 9 , 0.3)', color: 'white', padding: '10px', marginTop: '10px' }} >
      <div className="container-fluid">
        <Brand />
        <MenuButton />

@@ -1,6 +1,8 @@
 const Brand = () => {
     return(
-        <a className="navbar-brand" href="#">La tiendita de Cáceres</a>
+        <div>
+            <a className="navbar-brand" href="#">La tiendita de Cáceres</a>
+        </div>
     );
 };
 
